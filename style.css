@@ -6,6 +6,10 @@ body{
     flex-direction: column;
     padding:0;
 }
+img {
+    width: 300px;
+    height: 200px;
+}
 .section1,
 .footer {
     background-color: #1F2937;  
@@ -26,14 +30,25 @@ a {
 }
 ul {
     list-style-type: none;
+    gap: 32px;
+}
+.right-links {
+    display: flex;
+    flex-direction: row;
 }
 .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
+.signup,
+.register {
+    color: white;
+}
 button,
 .modal {
     background-color: #3882F6;
+    border-radius: 5px;
+    
 }
 .title {
     font-size: 36px;
@@ -54,28 +69,49 @@ button,
 }
 .header {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
+    margin: 12px 112px 112px 112px;
 }
 .container {
     display: flex;
-    justify-content: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 56px 112px 112px 112px;
+    max-width: 500px;
+}
+.register {
+    
+    width: 80px;
+}
+.bird {
+    display: flex;
+    align-items: flex-start;
+    margin: 56px 112px 56px 0px;
+    max-width: 600px;
+}
+#init {
+    width: 480px;
+    height: 240px;
 }
 .title {
     text-align: center;
-    margin: 32px 0;
+    margin: 56px 0px;
 }
 .main-content{
     display:flex;
     justify-content: center;
     gap: 24px;
-}
-img {
-    width: 300px;
-    height: 200px;
+    margin-bottom: 56px;
 }
 .box {
-    max-width: 300px;
+    max-width: 200px;
+    padding: 56px;
 }
 .ad {
     text-align: center;
@@ -93,7 +129,7 @@ img {
 
 .modal {
     width: 1060px;
-    border-radius: 5px;
+    
     display: flex;
     gap: 24px;
     padding: 12px;
