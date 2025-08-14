@@ -1,0 +1,44 @@
+body{
+    font-family:"Roboto", sans-serif;
+}
+.section1,
+.footer {
+    background-color: #1F2937;  
+}
+.hero{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.header,
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+button,.modal {
+    background-color: #3882F6;
+}
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+.ad {
+    background-color: #E5E7EB;
+}
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
